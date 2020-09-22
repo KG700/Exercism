@@ -7,7 +7,9 @@ class IsogramChecker {
         }
 
         for (int i = 0; i < phrase.length() - 1; i++) {
-            if (phrase.substring(i + 1).contains(String.valueOf(phrase.charAt(i)))) {
+            boolean isHyphen = phrase.charAt(i) == '-';
+            boolean isMultiple = phrase.substring(i + 1).contains(String.valueOf(phrase.charAt(i)));
+            if (!isHyphen && isMultiple) {
                 return false;
             }
         }

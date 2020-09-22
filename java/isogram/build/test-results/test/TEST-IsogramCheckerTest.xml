@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="IsogramCheckerTest" tests="13" skipped="4" failures="0" errors="0" timestamp="2020-09-22T16:29:27" hostname="MacBook-Pro" time="0.005">
+<testsuite name="IsogramCheckerTest" tests="13" skipped="3" failures="0" errors="0" timestamp="2020-09-22T16:34:14" hostname="MacBook-Pro" time="0.005">
   <properties/>
-  <testcase name="testDuplicateEndAlphabet" classname="IsogramCheckerTest" time="0.002"/>
-  <testcase name="testIsogramWithDuplicatedHyphen" classname="IsogramCheckerTest" time="0.0">
-    <skipped/>
-  </testcase>
+  <testcase name="testDuplicateEndAlphabet" classname="IsogramCheckerTest" time="0.001"/>
+  <testcase name="testIsogramWithDuplicatedHyphen" classname="IsogramCheckerTest" time="0.001"/>
   <testcase name="testIsogramWithDuplicatedCharAfterHyphen" classname="IsogramCheckerTest" time="0.0"/>
   <testcase name="testCaseInsensitive" classname="IsogramCheckerTest" time="0.0"/>
   <testcase name="testLowercaseIsogram" classname="IsogramCheckerTest" time="0.0"/>
@@ -12,7 +10,7 @@
   <testcase name="testMadeUpNameThatIsAnIsogram" classname="IsogramCheckerTest" time="0.0">
     <skipped/>
   </testcase>
-  <testcase name="testEmptyString" classname="IsogramCheckerTest" time="0.0"/>
+  <testcase name="testEmptyString" classname="IsogramCheckerTest" time="0.001"/>
   <testcase name="testIsogramWithHyphen" classname="IsogramCheckerTest" time="0.0"/>
   <testcase name="testSameFirstAndLast" classname="IsogramCheckerTest" time="0.0">
     <skipped/>
