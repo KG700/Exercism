@@ -29,14 +29,12 @@ public class IsogramCheckerTest {
         assertFalse(iso.isIsogram("zzyzx"));
     }
 
-    @Ignore("Remove to run test")
     @Test
     public void testMediumLongIsogram() {
         IsogramChecker iso = new IsogramChecker();
         assertTrue(iso.isIsogram("subdermatoglyphic"));
     }
 
-    @Ignore("Remove to run test")
     @Test
     public void testCaseInsensitive() {
         IsogramChecker iso = new IsogramChecker();

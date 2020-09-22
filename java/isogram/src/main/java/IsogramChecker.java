@@ -1,6 +1,7 @@
 class IsogramChecker {
 
     boolean isIsogram(String phrase) {
+        phrase = phrase.toLowerCase();
         if (phrase == "") {
             return true;
         }
