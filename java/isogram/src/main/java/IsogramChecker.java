@@ -8,8 +8,9 @@ class IsogramChecker {
 
         for (int i = 0; i < phrase.length() - 1; i++) {
             boolean isHyphen = phrase.charAt(i) == '-';
+            boolean isSpace = phrase.charAt(i) == ' ';
             boolean isMultiple = phrase.substring(i + 1).contains(String.valueOf(phrase.charAt(i)));
-            if (!isHyphen && isMultiple) {
+            if (!isHyphen && !isSpace && isMultiple) {
                 return false;
             }
         }
