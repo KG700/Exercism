@@ -6,8 +6,10 @@ class IsogramChecker {
             return true;
         }
 
-        if (phrase.substring(1).contains(String.valueOf(phrase.charAt(0)))) {
-            return false;
+        for (int i = 0; i < phrase.length() - 1; i++) {
+            if (phrase.substring(i + 1).contains(String.valueOf(phrase.charAt(i)))) {
+                return false;
+            }
         }
         return true;
     }
