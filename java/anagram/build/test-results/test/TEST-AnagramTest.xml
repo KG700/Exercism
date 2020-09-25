@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="AnagramTest" tests="14" skipped="13" failures="0" errors="0" timestamp="2020-09-25T14:45:46" hostname="MacBook-Pro" time="0.061">
+<testsuite name="AnagramTest" tests="14" skipped="12" failures="0" errors="0" timestamp="2020-09-25T14:56:01" hostname="MacBook-Pro" time="0.051">
   <properties/>
   <testcase name="testCaseInsensitiveWhenBothAnagramAndSubjectStartWithUpperCaseLetter" classname="AnagramTest" time="0.0">
     <skipped/>
@@ -22,9 +22,7 @@
   <testcase name="testDetectMultipleAnagramsForLongerWord" classname="AnagramTest" time="0.0">
     <skipped/>
   </testcase>
-  <testcase name="testDetectMultipleAnagrams" classname="AnagramTest" time="0.0">
-    <skipped/>
-  </testcase>
+  <testcase name="testDetectMultipleAnagrams" classname="AnagramTest" time="0.049"/>
   <testcase name="testWordsAreNotAnagramsOfThemselvesCaseInsensitive" classname="AnagramTest" time="0.0">
     <skipped/>
   </testcase>
@@ -37,7 +35,7 @@
   <testcase name="testDetectLongerAnagram" classname="AnagramTest" time="0.0">
     <skipped/>
   </testcase>
-  <testcase name="testNoMatches" classname="AnagramTest" time="0.058"/>
+  <testcase name="testNoMatches" classname="AnagramTest" time="0.001"/>
   <testcase name="testEliminateAnagramsWithSameChecksum" classname="AnagramTest" time="0.0">
     <skipped/>
   </testcase>
