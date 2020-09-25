@@ -10,11 +10,16 @@ class PigLatinTranslator {
         List<String> vowelsList = Arrays.asList(vowels);
 
         String firstLetter = String.valueOf(word.charAt(0));
+        String secondLetter = String.valueOf(word.charAt(1));
 
-        if( !vowelsList.contains(firstLetter) ) {
+        if ( (firstLetter.equals("c")) && (secondLetter.equals("h"))) {
+            pigWord = word.substring(2) + firstLetter + secondLetter;
+        }
+        else if( !vowelsList.contains(firstLetter) ) {
             pigWord = word.substring(1) + firstLetter;
         }
 
         return pigWord + "ay";
     }
+
 }
