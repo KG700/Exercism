@@ -84,7 +84,6 @@ public class AnagramTest {
             .containsExactlyInAnyOrder​("Carthorse");
     }
 
-    @Ignore("Remove to run test")
     @Test
     public void testCaseInsensitiveWhenSubjectStartsWithUpperCaseLetter() {
         Anagram detector = new Anagram("Orchestra");
@@ -95,7 +94,6 @@ public class AnagramTest {
             .containsExactlyInAnyOrder​("carthorse");
     }
 
-    @Ignore("Remove to run test")
     @Test
     public void testCaseInsensitiveWhenAnagramStartsWithUpperCaseLetter() {
         Anagram detector = new Anagram("orchestra");
@@ -106,7 +104,6 @@ public class AnagramTest {
             .containsExactlyInAnyOrder​("Carthorse");
     }
 
-    @Ignore("Remove to run test")
     @Test
     public void testIdenticalWordRepeatedIsNotAnagram() {
         Anagram detector = new Anagram("go");
@@ -115,7 +112,6 @@ public class AnagramTest {
             .isEmpty();
     }
 
-    @Ignore("Remove to run test")
     @Test
     public void testAnagramMustUseAllLettersExactlyOnce() {
         Anagram detector = new Anagram("tapper");
@@ -124,7 +120,6 @@ public class AnagramTest {
             .isEmpty();
     }
 
-    @Ignore("Remove to run test")
     @Test
     public void testWordsAreNotAnagramsOfThemselvesCaseInsensitive() {
         Anagram detector = new Anagram("BANANA");

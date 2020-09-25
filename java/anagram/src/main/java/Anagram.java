@@ -24,11 +24,10 @@ class Anagram {
 
         for (String word : words) {
             String sortedWordToMatch = sortLetters(word);
-            if (sortedWord.equals(sortedWordToMatch)) {
+            if (sortedWord.equals(sortedWordToMatch) && !this.word.toLowerCase().equals(word.toLowerCase())) {
                 matchingWords.add(word);
             }
         }
-
 
         return matchingWords;
     }
