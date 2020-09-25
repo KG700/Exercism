@@ -66,7 +66,6 @@ public class AnagramTest {
             .containsExactlyInAnyOrder​("Eons", "ONES");
     }
 
-    @Ignore("Remove to run test")
     @Test
     public void testEliminateAnagramsWithSameChecksum() {
         Anagram detector = new Anagram("mass");
@@ -75,7 +74,6 @@ public class AnagramTest {
             .isEmpty();
     }
 
-    @Ignore("Remove to run test")
     @Test
     public void testCaseInsensitiveWhenBothAnagramAndSubjectStartWithUpperCaseLetter() {
         Anagram detector = new Anagram("Orchestra");

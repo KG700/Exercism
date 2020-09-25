@@ -10,10 +10,10 @@ class Anagram {
     }
 
     String sortLetters(String word) {
-        char[] letterArray = word.toCharArray();
+        char[] letterArray = word.toLowerCase().toCharArray();
         Arrays.sort(letterArray);
         String sorted = new String(letterArray);
-        return sorted.toLowerCase();
+        return sorted;
 
     }
 
