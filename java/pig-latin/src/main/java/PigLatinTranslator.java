@@ -15,8 +15,15 @@ class PigLatinTranslator {
         List<String> tripleConsonantsList = Arrays.asList(tripleConsonants);
 
         String firstLetter = String.valueOf(word.charAt(0));
-        String secondLetter = String.valueOf(word.charAt(1));
-        String thirdLetter = String.valueOf(word.charAt(2));
+        String secondLetter = "";
+        String thirdLetter = "";
+
+        if (word.length() > 1) {
+            secondLetter = String.valueOf(word.charAt(1));
+        }
+        if (word.length() > 2) {
+            thirdLetter = String.valueOf(word.charAt(2));
+        }
 
         boolean isConstQu = secondLetter.equals("q") && thirdLetter.equals("u");
 
