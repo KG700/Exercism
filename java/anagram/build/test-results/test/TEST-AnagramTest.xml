@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="AnagramTest" tests="14" skipped="1" failures="0" errors="0" timestamp="2020-09-25T15:31:02" hostname="MacBook-Pro" time="0.044">
+<testsuite name="AnagramTest" tests="14" skipped="0" failures="0" errors="0" timestamp="2020-09-25T15:31:56" hostname="MacBook-Pro" time="0.044">
   <properties/>
-  <testcase name="testCaseInsensitiveWhenBothAnagramAndSubjectStartWithUpperCaseLetter" classname="AnagramTest" time="0.041"/>
-  <testcase name="testEliminateAnagramSubsets" classname="AnagramTest" time="0.001"/>
-  <testcase name="testAnagramMustUseAllLettersExactlyOnce" classname="AnagramTest" time="0.0"/>
+  <testcase name="testCaseInsensitiveWhenBothAnagramAndSubjectStartWithUpperCaseLetter" classname="AnagramTest" time="0.04"/>
+  <testcase name="testEliminateAnagramSubsets" classname="AnagramTest" time="0.0"/>
+  <testcase name="testAnagramMustUseAllLettersExactlyOnce" classname="AnagramTest" time="0.001"/>
   <testcase name="testIdenticalWordRepeatedIsNotAnagram" classname="AnagramTest" time="0.0"/>
   <testcase name="testDetectsMultipleAnagramsWithDifferentCase" classname="AnagramTest" time="0.0"/>
-  <testcase name="testWordsOtherThanThemselvesCanBeAnagrams" classname="AnagramTest" time="0.0">
-    <skipped/>
-  </testcase>
+  <testcase name="testWordsOtherThanThemselvesCanBeAnagrams" classname="AnagramTest" time="0.001"/>
   <testcase name="testDetectMultipleAnagramsForLongerWord" classname="AnagramTest" time="0.0"/>
   <testcase name="testDetectMultipleAnagrams" classname="AnagramTest" time="0.0"/>
   <testcase name="testWordsAreNotAnagramsOfThemselvesCaseInsensitive" classname="AnagramTest" time="0.0"/>
