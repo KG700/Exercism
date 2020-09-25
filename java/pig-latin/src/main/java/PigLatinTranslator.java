@@ -6,7 +6,7 @@ class PigLatinTranslator {
     String translate(String word) {
         String pigWord = word;
 
-        String[] vowels = new String[] { "a", "e", "i", "o", "u" };
+        String[] vowels = new String[] { "a", "e", "i", "o", "u", "yt" };
         String[] doubleConsonants = new String[] { "ch", "qu", "th" };
         String[] tripleConsonants = new String[] { "thr", "sch" };
 
@@ -26,7 +26,7 @@ class PigLatinTranslator {
         else if ( doubleConsonantsList.contains(firstLetter + secondLetter)) {
             pigWord = word.substring(2) + firstLetter + secondLetter;
         }
-        else if( !vowelsList.contains(firstLetter) ) {
+        else if( !vowelsList.contains(firstLetter) && !vowelsList.contains(firstLetter + secondLetter) ) {
             pigWord = word.substring(1) + firstLetter;
         }
 
