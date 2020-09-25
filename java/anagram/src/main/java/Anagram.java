@@ -13,7 +13,7 @@ class Anagram {
         char[] letterArray = word.toCharArray();
         Arrays.sort(letterArray);
         String sorted = new String(letterArray);
-        return sorted;
+        return sorted.toLowerCase();
 
     }
 

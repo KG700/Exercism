@@ -26,7 +26,6 @@ public class AnagramTest {
             .containsExactlyInAnyOrder​("maters", "stream");
     }
 
-    @Ignore("Remove to run test")
     @Test
     public void testEliminateAnagramSubsets() {
         Anagram detector = new Anagram("good");
@@ -34,7 +33,6 @@ public class AnagramTest {
         assertThat(detector.match(Arrays.asList("dog", "goody"))).isEmpty();
     }
 
-    @Ignore("Remove to run test")
     @Test
     public void testDetectLongerAnagram() {
         Anagram detector = new Anagram("listen");
@@ -45,7 +43,6 @@ public class AnagramTest {
             .containsExactlyInAnyOrder​("inlets");
     }
 
-    @Ignore("Remove to run test")
     @Test
     public void testDetectMultipleAnagramsForLongerWord() {
         Anagram detector = new Anagram("allergy");
@@ -61,7 +58,6 @@ public class AnagramTest {
             .containsExactlyInAnyOrder​("gallery", "regally", "largely");
     }
 
-    @Ignore("Remove to run test")
     @Test
     public void testDetectsMultipleAnagramsWithDifferentCase() {
         Anagram detector = new Anagram("nose");
