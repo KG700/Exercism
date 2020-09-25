@@ -13,8 +13,13 @@ class PigLatinTranslator {
 
         String firstLetter = String.valueOf(word.charAt(0));
         String secondLetter = String.valueOf(word.charAt(1));
+        String thirdLetter = String.valueOf(word.charAt(2));
 
-        if ( doubleConsonantsList.contains(firstLetter + secondLetter)) {
+        if ( !vowelsList.contains(firstLetter) && secondLetter.equals("q") && thirdLetter.equals("u")) {
+            pigWord = word.substring(3) + firstLetter + secondLetter + thirdLetter;
+        }
+
+        else if ( doubleConsonantsList.contains(firstLetter + secondLetter)) {
             pigWord = word.substring(2) + firstLetter + secondLetter;
         }
         else if( !vowelsList.contains(firstLetter) ) {

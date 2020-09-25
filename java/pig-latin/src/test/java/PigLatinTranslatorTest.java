@@ -73,7 +73,6 @@ public class PigLatinTranslatorTest {
         assertEquals("eenquay", pigLatinTranslator.translate("queen"));
     }
 
-    @Ignore("Remove to run test")
     @Test
     public void testQuAndAPrecedingConsonantTreatedLikeAConsonantAtTheBeginningOfAWord() {
         assertEquals("aresquay", pigLatinTranslator.translate("square"));
