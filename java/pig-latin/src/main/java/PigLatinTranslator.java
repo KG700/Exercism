@@ -7,7 +7,7 @@ class PigLatinTranslator {
         String pigWord = word;
 
         String[] vowels = new String[] { "a", "e", "i", "o", "u", "yt", "xr" };
-        String[] doubleConsonants = new String[] { "ch", "qu", "th" };
+        String[] doubleConsonants = new String[] { "ch", "qu", "th", "rh" };
         String[] tripleConsonants = new String[] { "thr", "sch" };
 
         List<String> vowelsList = Arrays.asList(vowels);
