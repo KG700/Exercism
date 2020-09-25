@@ -8,22 +8,21 @@ class PigLatinTranslator {
 
         String[] vowels = new String[] { "a", "e", "i", "o", "u" };
         String[] doubleConsonants = new String[] { "ch", "qu", "th" };
+        String[] tripleConsonants = new String[] { "thr" };
 
         List<String> vowelsList = Arrays.asList(vowels);
         List<String> doubleConsonantsList = Arrays.asList(doubleConsonants);
+        List<String> tripleConsonantsList = Arrays.asList(tripleConsonants);
 
         String firstLetter = String.valueOf(word.charAt(0));
         String secondLetter = String.valueOf(word.charAt(1));
         String thirdLetter = String.valueOf(word.charAt(2));
 
-        if ( !vowelsList.contains(firstLetter) && secondLetter.equals("q") && thirdLetter.equals("u")) {
+        boolean isConstQu = secondLetter.equals("q") && thirdLetter.equals("u");
+
+        if ( !vowelsList.contains(firstLetter) && isConstQu || tripleConsonantsList.contains(firstLetter + secondLetter + thirdLetter)) {
             pigWord = word.substring(3) + firstLetter + secondLetter + thirdLetter;
         }
-
-        else if ( firstLetter.equals("t") && secondLetter.equals("h") && thirdLetter.equals("r")) {
-            pigWord = word.substring(3) + firstLetter + secondLetter + thirdLetter;
-        }
-
         else if ( doubleConsonantsList.contains(firstLetter + secondLetter)) {
             pigWord = word.substring(2) + firstLetter + secondLetter;
         }
