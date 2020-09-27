@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ProteinTranslatorTest" tests="23" skipped="18" failures="0" errors="0" timestamp="2020-09-27T11:27:02" hostname="MacBook-Pro" time="0.007">
+<testsuite name="ProteinTranslatorTest" tests="23" skipped="17" failures="0" errors="0" timestamp="2020-09-27T11:28:28" hostname="MacBook-Pro" time="0.006">
   <properties/>
   <testcase name="testTryptophanRnaSequence1" classname="ProteinTranslatorTest" time="0.0">
     <skipped/>
@@ -38,10 +38,8 @@
     <skipped/>
   </testcase>
   <testcase name="testPhenylalanineRnaSequence1" classname="ProteinTranslatorTest" time="0.0"/>
-  <testcase name="testPhenylalanineRnaSequence2" classname="ProteinTranslatorTest" time="0.0"/>
-  <testcase name="testSerineRnaSequence1" classname="ProteinTranslatorTest" time="0.0">
-    <skipped/>
-  </testcase>
+  <testcase name="testPhenylalanineRnaSequence2" classname="ProteinTranslatorTest" time="0.001"/>
+  <testcase name="testSerineRnaSequence1" classname="ProteinTranslatorTest" time="0.0"/>
   <testcase name="testSerineRnaSequence2" classname="ProteinTranslatorTest" time="0.0">
     <skipped/>
   </testcase>
