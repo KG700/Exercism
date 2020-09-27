@@ -8,7 +8,8 @@ class ProteinTranslator {
         if (rnaSequence.equals("AUG")) return Arrays.asList("Methionine");
         if (rnaSequence.equals("UUA") || rnaSequence.equals("UUG")) return Arrays.asList("Leucine");
         if (rnaSequence.equals("UCU") || rnaSequence.equals("UCC") || rnaSequence.equals("UCA") || rnaSequence.equals("UCG")) return Arrays.asList("Serine");
-        if (rnaSequence.equals("UAU")) return Arrays.asList("Tyrosine");
+        if (rnaSequence.equals("UAU") || rnaSequence.equals("UAC")) return Arrays.asList("Tyrosine");
+        if (rnaSequence.equals("UGU")) return Arrays.asList("Cysteine");
         return Arrays.asList("Phenylalanine");
     }
 }
