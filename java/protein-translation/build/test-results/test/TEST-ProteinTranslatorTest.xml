@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ProteinTranslatorTest" tests="23" skipped="9" failures="0" errors="0" timestamp="2020-09-27T13:15:58" hostname="MacBook-Pro" time="0.007">
+<testsuite name="ProteinTranslatorTest" tests="23" skipped="8" failures="0" errors="0" timestamp="2020-09-27T17:30:31" hostname="MacBook-Pro" time="0.005">
   <properties/>
   <testcase name="testTryptophanRnaSequence1" classname="ProteinTranslatorTest" time="0.001"/>
   <testcase name="testTranslationOfRnaToProteinList" classname="ProteinTranslatorTest" time="0.0">
@@ -20,11 +20,9 @@
   <testcase name="testTranslationStopsIfStopCodonAtEnd2" classname="ProteinTranslatorTest" time="0.0">
     <skipped/>
   </testcase>
-  <testcase name="testLeucineRnaSequence1" classname="ProteinTranslatorTest" time="0.0"/>
+  <testcase name="testLeucineRnaSequence1" classname="ProteinTranslatorTest" time="0.001"/>
   <testcase name="testLeucineRnaSequence2" classname="ProteinTranslatorTest" time="0.0"/>
-  <testcase name="testStopRnaSequence1" classname="ProteinTranslatorTest" time="0.0">
-    <skipped/>
-  </testcase>
+  <testcase name="testStopRnaSequence1" classname="ProteinTranslatorTest" time="0.0"/>
   <testcase name="testStopRnaSequence2" classname="ProteinTranslatorTest" time="0.0">
     <skipped/>
   </testcase>
@@ -32,7 +30,7 @@
     <skipped/>
   </testcase>
   <testcase name="testPhenylalanineRnaSequence1" classname="ProteinTranslatorTest" time="0.0"/>
-  <testcase name="testPhenylalanineRnaSequence2" classname="ProteinTranslatorTest" time="0.0"/>
+  <testcase name="testPhenylalanineRnaSequence2" classname="ProteinTranslatorTest" time="0.001"/>
   <testcase name="testSerineRnaSequence1" classname="ProteinTranslatorTest" time="0.0"/>
   <testcase name="testSerineRnaSequence2" classname="ProteinTranslatorTest" time="0.0"/>
   <testcase name="testSerineRnaSequence3" classname="ProteinTranslatorTest" time="0.0"/>
@@ -40,7 +38,7 @@
   <testcase name="testTranslationStopsIfStopCodonAtBeginning" classname="ProteinTranslatorTest" time="0.0">
     <skipped/>
   </testcase>
-  <testcase name="testCysteineRnaSequence1" classname="ProteinTranslatorTest" time="0.001"/>
+  <testcase name="testCysteineRnaSequence1" classname="ProteinTranslatorTest" time="0.0"/>
   <testcase name="testCysteineRnaSequence2" classname="ProteinTranslatorTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
