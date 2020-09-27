@@ -118,7 +118,6 @@ public class ProteinTranslatorTest {
         assertEquals(expected, proteinTranslator.translate("UGA"));
     }
 
-    @Ignore("Remove to run test")
     @Test
     public void testTranslationOfRnaToProteinList() {
         List<String> expected = Arrays.asList("Methionine", "Phenylalanine", "Tryptophan");
