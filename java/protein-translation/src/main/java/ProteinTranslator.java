@@ -1,17 +1,29 @@
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Hashtable;
 import java.util.List;
 
 class ProteinTranslator {
 
     List<String> translate(String rnaSequence) {
-        if (rnaSequence.equals("AUG")) return Arrays.asList("Methionine");
-        if (rnaSequence.equals("UUU") || rnaSequence.equals("UUC")) return Arrays.asList("Phenylalanine");
-        if (rnaSequence.equals("UUA") || rnaSequence.equals("UUG")) return Arrays.asList("Leucine");
-        if (rnaSequence.equals("UCU") || rnaSequence.equals("UCC") || rnaSequence.equals("UCA") || rnaSequence.equals("UCG")) return Arrays.asList("Serine");
-        if (rnaSequence.equals("UAU") || rnaSequence.equals("UAC")) return Arrays.asList("Tyrosine");
-        if (rnaSequence.equals("UGU") || rnaSequence.equals("UGC")) return Arrays.asList("Cysteine");
-        if (rnaSequence.equals("UGG")) return Arrays.asList("Tryptophan");
+
+        Hashtable<String, String> proteinMap = new Hashtable<String, String>();
+        proteinMap.put("UGU", "Cysteine");
+        proteinMap.put("UGC", "Cysteine");
+        proteinMap.put("UUA", "Leucine");
+        proteinMap.put("UUG", "Leucine");
+        proteinMap.put("AUG", "Methionine");
+        proteinMap.put("UUU", "Phenylalanine");
+        proteinMap.put("UUC", "Phenylalanine");
+        proteinMap.put("UCU", "Serine");
+        proteinMap.put("UCC", "Serine");
+        proteinMap.put("UCA", "Serine");
+        proteinMap.put("UCG", "Serine");
+        proteinMap.put("UAU", "Tyrosine");
+        proteinMap.put("UAC", "Tyrosine");
+        proteinMap.put("UGG", "Tryptophan");
+
+        if (proteinMap.containsKey(rnaSequence)) return Arrays.asList(proteinMap.get(rnaSequence));
         return Arrays.asList();
     }
 }
