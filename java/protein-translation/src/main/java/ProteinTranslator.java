@@ -27,6 +27,7 @@ class ProteinTranslator {
         List<String> proteins = new ArrayList<String>();
         for (int i = 0; i < rnaSequence.length(); i += 3) {
             codon = rnaSequence.substring(i, i + 3);
+            if (codon.equals("UAG")) break;
             if (proteinMap.containsKey(codon)) {
                 proteins.add(proteinMap.get(codon));
             };
