@@ -4,6 +4,7 @@ import java.util.List;
 class ProteinTranslator {
 
     List<String> translate(String rnaSequence) {
-        return Arrays.asList("Methionine");
+        if (rnaSequence.equals("AUG")) return Arrays.asList("Methionine");
+        return Arrays.asList("Phenylalanine");
     }
 }

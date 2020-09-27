@@ -22,7 +22,6 @@ public class ProteinTranslatorTest {
         assertEquals(expected, proteinTranslator.translate("AUG"));
     }
 
-    @Ignore("Remove to run test")
     @Test
     public void testPhenylalanineRnaSequence1() {
         List<String> expected = Arrays.asList("Phenylalanine");
