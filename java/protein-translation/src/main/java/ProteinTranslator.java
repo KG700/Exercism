@@ -5,7 +5,7 @@ class ProteinTranslator {
 
     List<String> translate(String rnaSequence) {
         if (rnaSequence.equals("AUG")) return Arrays.asList("Methionine");
-        if (rnaSequence.equals("UUA")) return Arrays.asList("Leucine");
+        if (rnaSequence.equals("UUA") || rnaSequence.equals("UUG")) return Arrays.asList("Leucine");
         return Arrays.asList("Phenylalanine");
     }
 }
