@@ -10,6 +10,7 @@ class ProteinTranslator {
         if (rnaSequence.equals("UCU") || rnaSequence.equals("UCC") || rnaSequence.equals("UCA") || rnaSequence.equals("UCG")) return Arrays.asList("Serine");
         if (rnaSequence.equals("UAU") || rnaSequence.equals("UAC")) return Arrays.asList("Tyrosine");
         if (rnaSequence.equals("UGU") || rnaSequence.equals("UGC")) return Arrays.asList("Cysteine");
+        if (rnaSequence.equals("UGG")) return Arrays.asList("Tryptophan");
         return Arrays.asList("Phenylalanine");
     }
 }
