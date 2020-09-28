@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ProverbTest" tests="6" skipped="5" failures="0" errors="0" timestamp="2020-09-28T08:50:36" hostname="MacBook-Pro" time="0.034">
+  <properties/>
+  <testcase name="shortChainOfConsequences" classname="ProverbTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="fullProverb" classname="ProverbTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="zeroWordsAreGiven" classname="ProverbTest" time="0.033"/>
+  <testcase name="singlePieceOfProverb" classname="ProverbTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="twoPiecesOfProverb" classname="ProverbTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="fourPiecesModernizedProverb" classname="ProverbTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
