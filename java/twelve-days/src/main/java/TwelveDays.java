@@ -14,6 +14,7 @@ class TwelveDays {
         gifts.put(9, new String[]{"ninth", "nine Ladies Dancing"});
         gifts.put(10, new String[]{"tenth", "ten Lords-a-Leaping"});
         gifts.put(11, new String[]{"eleventh", "eleven Pipers Piping"});
+        gifts.put(12, new String[]{"twelfth", "twelve Drummers Drumming"});
 
         String verse = "On the " + gifts.get(verseNumber)[0] + " day of Christmas my true love gave to me: ";
         for (int i = verseNumber; i > 0; i--) {
