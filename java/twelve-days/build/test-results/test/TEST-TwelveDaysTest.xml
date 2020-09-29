@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TwelveDaysTest" tests="15" skipped="5" failures="0" errors="0" timestamp="2020-09-29T09:04:00" hostname="MacBook-Pro.local" time="0.012">
+<testsuite name="TwelveDaysTest" tests="15" skipped="4" failures="0" errors="0" timestamp="2020-09-29T09:05:09" hostname="MacBook-Pro.local" time="0.009">
   <properties/>
-  <testcase name="testVerseEight" classname="TwelveDaysTest" time="0.008"/>
+  <testcase name="testVerseEight" classname="TwelveDaysTest" time="0.006"/>
   <testcase name="testVerseSeven" classname="TwelveDaysTest" time="0.0"/>
   <testcase name="testVerseThree" classname="TwelveDaysTest" time="0.0"/>
   <testcase name="testVerseOne" classname="TwelveDaysTest" time="0.0"/>
-  <testcase name="testVerseSix" classname="TwelveDaysTest" time="0.001"/>
+  <testcase name="testVerseSix" classname="TwelveDaysTest" time="0.0"/>
   <testcase name="testVerseTen" classname="TwelveDaysTest" time="0.0"/>
   <testcase name="testVerseTwo" classname="TwelveDaysTest" time="0.0"/>
   <testcase name="testVerseFive" classname="TwelveDaysTest" time="0.0"/>
   <testcase name="testVerseFour" classname="TwelveDaysTest" time="0.0"/>
   <testcase name="testVerseNine" classname="TwelveDaysTest" time="0.0"/>
-  <testcase name="testVerseEleven" classname="TwelveDaysTest" time="0.0">
-    <skipped/>
-  </testcase>
+  <testcase name="testVerseEleven" classname="TwelveDaysTest" time="0.0"/>
   <testcase name="testVerseTwelve" classname="TwelveDaysTest" time="0.0">
     <skipped/>
   </testcase>
