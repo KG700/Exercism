@@ -1,7 +1,18 @@
 class TwelveDays {
     String verse(int verseNumber) {
-        return "On the first day of Christmas my true love gave to me: " +
-                "a Partridge in a Pear Tree.\n";
+        String verse = "";
+
+        switch(verseNumber) {
+            case 1:
+                verse = "On the first day of Christmas my true love gave to me: " +
+                        "a Partridge in a Pear Tree.\n";
+                break;
+            case 2:
+                verse = "On the second day of Christmas my true love gave to me: two Turtle Doves, " +
+                        "and a Partridge in a Pear Tree.\n";
+                break;
+        }
+        return verse;
     }
 
     String verses(int startVerse, int endVerse) {
