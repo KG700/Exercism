@@ -11,6 +11,10 @@ class TwelveDays {
                 verse = "On the second day of Christmas my true love gave to me: two Turtle Doves, " +
                         "and a Partridge in a Pear Tree.\n";
                 break;
+            case 3:
+                verse = "On the third day of Christmas my true love gave to me: three French Hens, " +
+                        "two Turtle Doves, and a Partridge in a Pear Tree.\n";
+                break;
         }
         return verse;
     }
