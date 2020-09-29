@@ -40,7 +40,6 @@ public class TwelveDaysTest {
         assertEquals(expectedVerseFour, twelveDays.verse(4));
     }
 
-    @Ignore("Remove to run test")
     @Test
     public void testVerseFive() {
         String expectedVerseFive = "On the fifth day of Christmas my true love gave to me: five Gold Rings, " +
