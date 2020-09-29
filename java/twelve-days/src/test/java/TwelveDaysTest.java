@@ -33,7 +33,6 @@ public class TwelveDaysTest {
         assertEquals(expectedVerseThree, twelveDays.verse(3));
     }
 
-    @Ignore("Remove to run test")
     @Test
     public void testVerseFour() {
         String expectedVerseFour = "On the fourth day of Christmas my true love gave to me: four Calling Birds, " +
