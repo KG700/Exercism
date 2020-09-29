@@ -27,7 +27,12 @@ class TwelveDays {
     }
 
     String verses(int startVerse, int endVerse) {
-        throw new UnsupportedOperationException("Delete this statement and write your own implementation.");
+        String verses = "";
+        for (int i = startVerse; i <= endVerse; i++) {
+            verses += verse(i);
+            if (i < endVerse) verses += "\n";
+        }
+        return verses;
     }
     
     String sing() {
