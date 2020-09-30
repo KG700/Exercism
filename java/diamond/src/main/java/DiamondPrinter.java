@@ -4,7 +4,7 @@ import java.util.List;
 class DiamondPrinter {
 
     List<String> printToList(char a) {
-        final String letters = "ABCD";
+        final String letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
         int dimension = letters.indexOf(a) * 2 + 1;
         int middle = dimension / 2;
 
@@ -12,7 +12,7 @@ class DiamondPrinter {
 
         String row = "";
         while (row.length() < dimension) row += " ";
-        while (diamond.size() < dimension) diamond.add(row);
+        while (diamond.size() < dimension) diamond.add("");
 
         for (int i = 0; i < middle + 1;  i++) {
             StringBuilder newRow = new StringBuilder(row);
